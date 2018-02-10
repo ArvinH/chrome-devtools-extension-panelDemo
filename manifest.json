@@ -1,0 +1,18 @@
+{
+  "name": "Panel Devtool Demo",
+  "version": "0.1",
+  "description": "Demo Panel devtools",
+  "devtools_page": "devtools.html",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
