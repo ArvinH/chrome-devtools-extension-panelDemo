@@ -1,5 +1,5 @@
 (function() {
-    const port = chrome.extension.connect({
+    const port = chrome.runtime.connect({
         name: "Devtools.js Communication"
     });
     const inspectedWindowId = chrome.devtools.inspectedWindow.tabId;
